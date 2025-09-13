@@ -327,6 +327,23 @@ MonoBehaviour:
   rightBoundPadding: 1
   upBoundPadding: 7
   downBoundPadding: 1
+--- !u!114 &1709561881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709561873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9a87e10e6279b4e83a4a8163d8a213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Shooter
+  projectilePrefab: {fileID: 2783788306037018308, guid: 4955f73f79f9d194fa2aca0b3d1a222a, type: 3}
+  projectileSpeed: 10
+  projectileLifetime: 5
+  fireRate: 0.2
+  isFiring: 0
 --- !u!1001 &3872750642363692014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -386,6 +403,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9109459008133492271, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1709561875}
+    - targetCorrespondingSourceObject: {fileID: 9109459008133492271, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1709561881}
   m_SourcePrefab: {fileID: 100100000, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
