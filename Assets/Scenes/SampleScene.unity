@@ -424,6 +424,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CameraShake
   shakeDuration: 0.3
   shakeMagnitude: 0.2
+--- !u!1 &1340510965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1340510967}
+  - component: {fileID: 1340510966}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1340510966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340510965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04b3846e9b53bb4a9a5fcdd3434251b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  shootingClip: {fileID: 8300000, guid: 8318a65a618cc0448b56273ab1e2d1ac, type: 3}
+  shootingVolume: 0.1
+  damageClip: {fileID: 8300000, guid: fef723987c16c744a9849ae233857cdf, type: 3}
+  damageVolume: 0.2
+--- !u!4 &1340510967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340510965}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1709561873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9109459008133492271, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
@@ -670,3 +718,4 @@ SceneRoots:
   - {fileID: 3872750642363692014}
   - {fileID: 231297062}
   - {fileID: 1745102569}
+  - {fileID: 1340510967}
